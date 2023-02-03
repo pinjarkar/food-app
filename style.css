@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: serif, fantasy, Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #67a7eb;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: solid 2px rgb(0, 255, 30);
+    margin-top: 5%;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: solid 2px rgb(17, 16, 16);
+  }
+  
+  .food-item {
+    display: flex;
+    background-color: #bbb08d;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+    border: solid 2px rgb(105, 26, 210);
+  }
+  
+  button {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: fantasy;
+    padding: 12px 39px;
+    background-color: #b2aaaa;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #b2aaaa;
+  }
+  
+  button:hover {
+    border: 3px solid black;
+  }
+  
